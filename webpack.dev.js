@@ -7,6 +7,7 @@ module.exports = merge(common, {
   output: {
     filename: "main.js",
     path: path.resolve(__dirname, "dist"),
+    assetModuleFilename: "images/[name][ext]"
   },
   devtool: 'inline-source-map',
   devServer: {
